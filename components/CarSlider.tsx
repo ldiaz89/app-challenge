@@ -6,21 +6,14 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { CarModelHighlight } from "@/types";
 
-interface Highlight {
-  image: string;
-  title: string;
-  content: string;
-}
 
-interface CarModel {
-  model_highlights: Highlight[];
-}
 
 export default function CarHighlightsSlider({
   carModel,
 }: {
-  carModel: CarModel;
+  carModel: CarModelHighlight;
 }) {
   const prevRef = useRef<HTMLButtonElement | null>(null);
   const nextRef = useRef<HTMLButtonElement | null>(null);

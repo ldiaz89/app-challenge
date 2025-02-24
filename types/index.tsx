@@ -52,3 +52,20 @@ export type Feature = {
 export type CarFeaturesProps = {
   features: Feature[];
 };
+
+export type FilterMenuProps = {
+  filterOptions: string[];
+  selectedFilter: string;
+  setSelectedFilter: (filter: string) => void;
+  handleSort: (sortOption: string) => void;
+}
+
+export type Highlight = {
+  image: string;
+  title: string;
+  content: string;
+}
+
+export type CarModelHighlight = {
+  model_highlights: Highlight[];
+}

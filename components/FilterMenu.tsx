@@ -1,11 +1,7 @@
+import { FilterMenuProps } from "@/types";
 import React, { useState } from "react";
 
-interface FilterMenuProps {
-  filterOptions: string[];
-  selectedFilter: string;
-  setSelectedFilter: (filter: string) => void;
-  handleSort: (sortOption: string) => void;
-}
+
 
 const FilterMenu: React.FC<FilterMenuProps> = ({
   filterOptions,
@@ -70,7 +66,7 @@ const FilterMenu: React.FC<FilterMenuProps> = ({
                     setShowFilterMenu(false);
                   }}
                   className={`block py-2 px-4 hover:bg-slate-300 cursor-pointer ${
-                    selectedFilter === option ? "bg-slate-300" : ""
+                    selectedFilter === option ? "md:bg-slate-300" : "bg-transparent"
                   }`}
                 >
                   {option}
