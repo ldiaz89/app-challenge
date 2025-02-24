@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# App Challenge
 
-First, run the development server:
+Este proyecto es una aplicación diseñada para cumplir con un challenge técnico donde se demuestran conocimientos en React.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Requisitos
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js (versión 14.17.0)
+- npm (versión 6.14.13) o yarn (versión 1.22.10)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Instalación
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/tu-usuario/app-challenge.git
+    ```
+2. Navega al directorio del proyecto:
+    ```bash
+    cd app-challenge
+    ```
+3. Instala las dependencias:
+    ```bash
+    npm install
+    ```
+    o si usas yarn:
+    ```bash
+    yarn install
+    ```
 
-## Learn More
+## Uso
 
-To learn more about Next.js, take a look at the following resources:
+1. Inicia la aplicación en modo desarrollo:
+    ```bash
+    npm start
+    ```
+    o si usas yarn:
+    ```bash
+    yarn start
+    ```
+2. Abre tu navegador y visita `http://localhost:3000` para ver la aplicación en funcionamiento.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contribuciones
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request.
 
-## Deploy on Vercel
+## Licencia
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este proyecto está bajo la licencia [nombre de la licencia]. Consulta el archivo `LICENSE` para más detalles..
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
